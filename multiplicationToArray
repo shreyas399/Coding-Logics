@@ -1,0 +1,17 @@
+import java.util.*;
+
+class demo
+{
+  public static void main(String []args)
+  {
+    ArrayList<Integer> arr=new ArrayList<>();
+    int N=10;
+  
+    for(int i=1;i<=10;i++)
+    {
+      arr.add(N*i);
+    }
+    System.out.println(arr);
+
+  }
+}
